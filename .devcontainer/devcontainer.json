@@ -1,0 +1,19 @@
+{
+    "name": "Remote-dev Project",
+    "dockerComposeFile": [
+      "../docker-compose.yaml"
+    ],
+    "service": "app",
+    "workspaceFolder": "/home/myapp/",
+    "extensions": [
+      "xabikos.javascriptsnippets",
+      "ritwickdey.live-sass"
+    ],
+    "settings": {
+      "editor.tabSize": 2,
+      "files.insertFinalNewline": true,
+      "files.trimFinalNewlines": true,
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "shutdownAction": "stopCompose" // or "none"
+  }
